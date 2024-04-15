@@ -8,20 +8,17 @@ local function Damage(Target)
     local args = {
         [1] = {
             [1] = "damage",
-            [2] = Target:WaitForChild("HumanoidRootPart"),
-            [3] = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart,
-            [4] = Vector3.new(-333.90594482421875, 82.19859313964844, -422.2204284667969),
-            [5] = game:GetService("ReplicatedStorage"):WaitForChild("Moves"):WaitForChild("GAttack2"),
-            [7] = 2.6600139407511487,
-            [8] = false,
-            [9] = false,
-            [10] = 0,
-            [13] = Vector3.new(-332.83795166015625, 84.09900665283203, -421.9864196777344)
+            [3] = Target:WaitForChild("HumanoidRootPart"),
+            [4] = Vector3.new(53.673248291015625, 73.00394439697266, 4.823902130126953),
+            [5] = game:GetService("ReplicatedStorage"):WaitForChild("Moves"):WaitForChild("BStrike1"),
+            [6] = "Brawler",
+            [7] = 0,
+            [11] = Vector3.new(0.9488789439201355, 0, -0.31564056873321533),
+            [13] = Vector3.new(53.782554626464844, 72.19590759277344, 5.636214256286621),
+            [14] = CFrame.new(51.53203582763672, 71.68468475341797, 6.384862899780273, 0.3156406879425049, 0.00003563184873200953, -0.9488789439201355, -0.0009445424657315016, 0.9999995231628418, -0.0002766468678601086, 0.9488784670829773, 0.0009835772216320038, 0.31564056873321533)
         }
     }
-    
     game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ME"):FireServer(unpack(args))
-    
 end
 
 --Main Loop
