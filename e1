@@ -1,7 +1,7 @@
 --getgenv().Distance = 20
 
 --Requirements
-loadstring(game:HttpGet('https://raw.githubusercontent.com/x1wolfe/Services/main/main.lua'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/DivinityOnTopHidden/e2/main/e2'))()
 
 --Functions
 local function Damage(Target)
